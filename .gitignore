@@ -1,0 +1,82 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist-python/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Django
+# ==============================
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# React / Node.js
+# ==============================
+node_modules/
+dist/
+coverage/
+.npm/
+*.tsbuildinfo
+
+# Vite local environment files
+*.local
+
+# ==============================
+# IDEs and editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Uploaded files and local RAG data
+# ==============================
+uploads/
+chroma_db/
+chroma/
+faiss_index/
+vector_store/
+*.faiss
+*.index
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
